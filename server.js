@@ -1,6 +1,6 @@
 const http = require('http');
 
-let counter = 0;
+var counter = 0;
 
 const server = http.createServer((req, res) => {
   if (req.method === 'POST') {
